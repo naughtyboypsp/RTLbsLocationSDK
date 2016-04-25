@@ -4,15 +4,15 @@ Pod::Spec.new do |s|
 
   s.name         = "RTLbsLocationSDK"
   s.version      = "1.0"
-  s.summary      = "A short description of MapSDK."
+  s.summary      = "SDL for RTLbsLocation used on iOS"
   s.requires_arc = true
   s.description  = <<-DESC
-                   It is RTLbsLocationSDK for WD
+                   A short description of RTLbsLocationSDK.Tell you how to use RTLbsLocationSDK.In WD ffan APP,We must use RTLbsLocationSDK.
                    DESC
   s.source_files = 'RTLbsLocationSDK/*'
   s.source       = { :git => "https://github.com/naughtyboypsp/RTLbsLocationSDK.git", :tag => s.version.to_s }
 
-  s.homepage     = "https://github.com/naughtyboypsp/RTLbsLocationSDK.git"
+  s.homepage     = "https://github.com/naughtyboypsp/RTLbsLocationSDK"
   s.resources    = ['**/*.zip','**/*.dat']
 
   s.license      = "MIT "
